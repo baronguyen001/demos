@@ -1,0 +1,5 @@
+:HL["/demos/cetins-gentlemens-barber-73f6/_next/static/chunks/09.xgqivr~f_9.css","style"]
+:HL["/demos/cetins-gentlemens-barber-73f6/_next/static/media/5cf8828ea9d4dda3-s.p.01vj161xbdk2k.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/demos/cetins-gentlemens-barber-73f6/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1400&q=85&auto=format&fit=crop","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"7Xhf6ZnNq5pF84vf5H0vu"}
