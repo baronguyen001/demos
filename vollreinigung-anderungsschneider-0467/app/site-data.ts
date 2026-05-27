@@ -3,6 +3,7 @@ export const site = {
   name: "Vollreinigung & Änderungsschneider",
   label: "Berlin Mitte alterations",
   slug: "vollreinigung-anderungsschneider-0467",
+  styleVariant: "variant-voll",
   address: "Neue Grünstraße 10, 10179 Berlin, Germany",
   phoneDisplay: "+49 30 5564 6072",
   phoneHref: "tel:+493055646072",
@@ -12,7 +13,7 @@ export const site = {
     "https://www.google.com/maps?q=Neue%20Gr%C3%BCnstra%C3%9Fe%2010%2C%2010179%20Berlin%2C%20Germany&output=embed",
   theme: {
     "--bg": "#F7F5F0",
-    "--surface": "#FBFAF7",
+    "--surface": "#F1EEE6",
     "--surface-strong": "#FFFFFF",
     "--text": "#0F1B2D",
     "--muted": "#5D6570",
@@ -24,6 +25,7 @@ export const site = {
   headline: "The Mitte tailor locals quietly trust",
   subhead:
     "319 five-star reviews, careful alterations, and fair pricing near Spittelmarkt in Berlin Mitte.",
+  headerCta: "Call now",
   primaryCta: "Call now",
   aboutHeading: "Careful alterations with a personal touch.",
   servicesHeading: "Alterations, repairs, and cleaning in one stop.",

@@ -8,21 +8,11 @@ const navItems = [
   ["Hours", "#hours"],
 ] as const;
 
-const themeStyle = {
-  "--bg": "#FAF5EE",
-  "--surface": "#FFF8F0",
-  "--surface-strong": "#FFFFFF",
-  "--text": "#2A1A22",
-  "--muted": "#705F67",
-  "--accent": "#C99478",
-  "--accent-strong": "#9F6B52",
-  "--line": "rgba(42, 26, 34, 0.14)",
-  "--shadow": "0 18px 45px rgba(42, 26, 34, 0.08)",
-} as CSSProperties;
+const themeStyle = site.theme as CSSProperties;
 
 export default function Home() {
   return (
-    <main className="site-shell" style={themeStyle}>
+    <main className={`site-shell ${site.styleVariant}`} style={themeStyle}>
       <header className="header">
         <div className="container header-inner">
           <a className="brand" href="#">
@@ -37,7 +27,7 @@ export default function Home() {
             ))}
           </nav>
           <a className="button button-primary" href={site.phoneHref}>
-            Call now
+            {site.headerCta}
           </a>
         </div>
       </header>
@@ -49,7 +39,7 @@ export default function Home() {
           <p>{site.subhead}</p>
           <div className="hero-actions">
             <a className="button button-primary" href={site.phoneHref}>
-              Book an appointment
+              {site.primaryCta}
             </a>
             <a className="button button-secondary" href={site.directions}>
               Get directions
@@ -78,7 +68,7 @@ export default function Home() {
         <div>
           <div className="section-heading">
             <p className="eyebrow">About the salon</p>
-            <h2>Neighbourhood care, finished with detail.</h2>
+            <h2>{site.aboutHeading}</h2>
           </div>
           <div className="copy-stack">
             {site.about.map((paragraph) => (
@@ -94,7 +84,7 @@ export default function Home() {
       <section className="container section" id="services">
         <div className="section-heading">
           <p className="eyebrow">Services</p>
-          <h2>Clear choices for hands, feet, and colour.</h2>
+          <h2>{site.servicesHeading}</h2>
           <p className="note">{site.serviceNote}</p>
         </div>
         <div className="card-grid">
@@ -113,7 +103,7 @@ export default function Home() {
       <section className="container section" id="team">
         <div className="section-heading">
           <p className="eyebrow">Team</p>
-          <h2>Roles shown for the demo site.</h2>
+          <h2>{site.teamHeading}</h2>
           <p className="note">{site.teamNote}</p>
         </div>
         <div className="card-grid">
@@ -132,7 +122,7 @@ export default function Home() {
       <section className="container section" id="gallery">
         <div className="section-heading">
           <p className="eyebrow">Gallery</p>
-          <h2>A calm visual direction for the final site.</h2>
+          <h2>{site.galleryHeading}</h2>
           <p className="note">{site.galleryNote}</p>
         </div>
         <div className="gallery-grid">
@@ -145,7 +135,7 @@ export default function Home() {
       <section className="container section" id="reviews">
         <div className="section-heading">
           <p className="eyebrow">Testimonials</p>
-          <h2>Real words from five-star Google reviews.</h2>
+          <h2>{site.reviewsHeading}</h2>
         </div>
         <div className="quote-grid">
           {site.testimonials.map((testimonial) => (
@@ -161,7 +151,7 @@ export default function Home() {
         <div>
           <div className="section-heading">
             <p className="eyebrow">Hours</p>
-            <h2>Plan your visit.</h2>
+            <h2>{site.hoursHeading}</h2>
             <p className="note">{site.hoursNote}</p>
           </div>
           <table className="hours-table">
@@ -188,7 +178,7 @@ export default function Home() {
       <section className="container section" id="faq">
         <div className="section-heading">
           <p className="eyebrow">FAQ</p>
-          <h2>Common questions before calling.</h2>
+          <h2>{site.faqHeading}</h2>
         </div>
         <div className="faq">
           {site.faq.map(([question, answer]) => (

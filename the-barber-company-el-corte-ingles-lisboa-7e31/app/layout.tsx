@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "./site-data";
 
@@ -9,7 +9,7 @@ const body = Inter({
   display: "swap",
 });
 
-const display = Playfair_Display({
+const display = Fraunces({
   variable: "--font-display",
   subsets: ["latin"],
   display: "swap",

@@ -1,5 +1,5 @@
-:HL["/demos/vollreinigung-anderungsschneider-0467/_next/static/chunks/10tu9e.ygnbur.css","style"]
+:HL["/demos/vollreinigung-anderungsschneider-0467/_next/static/chunks/05zd4pjrjja96.css","style"]
 :HL["/demos/vollreinigung-anderungsschneider-0467/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/demos/vollreinigung-anderungsschneider-0467/_next/static/media/ab57efd000576a30-s.p.0.xyi-bdzzdcz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["https://images.unsplash.com/photo-1497997092403-f091fcf5b6c4?w=1400&q=85&auto=format&fit=crop","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"j1m_HncSICu_MiS2gKh7Q"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"A_XXaWRhIhQEXVD5AI2Qi"}

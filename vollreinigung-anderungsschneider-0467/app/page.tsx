@@ -12,7 +12,7 @@ const themeStyle = site.theme as CSSProperties;
 
 export default function Home() {
   return (
-    <main className="site-shell" style={themeStyle}>
+    <main className={`site-shell ${site.styleVariant}`} style={themeStyle}>
       <header className="header">
         <div className="container header-inner">
           <a className="brand" href="#">
@@ -27,7 +27,7 @@ export default function Home() {
             ))}
           </nav>
           <a className="button button-primary" href={site.phoneHref}>
-            Call now
+            {site.headerCta}
           </a>
         </div>
       </header>

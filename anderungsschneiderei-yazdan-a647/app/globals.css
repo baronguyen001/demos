@@ -521,3 +521,96 @@ summary {
     grid-template-columns: 1fr;
   }
 }
+
+.variant-yazdan .header {
+  background: var(--surface-strong);
+}
+
+.variant-yazdan .hero {
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
+  gap: 22px;
+  padding-top: 44px;
+}
+
+.variant-yazdan .hero-copy {
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  padding: 34px;
+}
+
+.variant-yazdan .hero h1 {
+  font-family: var(--font-display), Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.variant-yazdan .hero-media {
+  min-height: 460px;
+  border-radius: 0;
+}
+
+.variant-yazdan .trust {
+  border-radius: 0;
+  background: transparent;
+  gap: 12px;
+}
+
+.variant-yazdan .trust-tile {
+  position: relative;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  padding-left: 58px;
+}
+
+.variant-yazdan .trust-tile::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 22px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  box-shadow: inset 7px 0 0 transparent;
+}
+
+.variant-yazdan .service-card,
+.variant-yazdan .team-card,
+.variant-yazdan .quote-card,
+.variant-yazdan .faq details,
+.variant-yazdan .hours-table,
+.variant-yazdan .map-frame,
+.variant-yazdan .image-panel,
+.variant-yazdan .button,
+.variant-yazdan .note {
+  border-radius: 0;
+}
+
+.variant-yazdan .card-grid {
+  gap: 10px;
+}
+
+.variant-yazdan .service-card {
+  min-height: 142px;
+  border-left: 4px solid var(--accent);
+}
+
+.variant-yazdan .price {
+  color: var(--accent-strong);
+  font-family: var(--font-display), Arial, sans-serif;
+}
+
+@media (max-width: 719px) {
+  .variant-yazdan .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .variant-yazdan .hero-copy {
+    padding: 24px;
+  }
+
+  .variant-yazdan .hero h1 {
+    font-size: 2.75rem;
+  }
+}

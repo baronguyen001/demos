@@ -1,5 +1,5 @@
-:HL["/demos/lily-nails-4967/_next/static/chunks/13j~puo3yd.71.css","style"]
+:HL["/demos/lily-nails-4967/_next/static/chunks/006w09b2en7f4.css","style"]
 :HL["/demos/lily-nails-4967/_next/static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/demos/lily-nails-4967/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=1400&q=85&auto=format&fit=crop","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"DbVPqLoxxLst4eEdXXrJO"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"13_7VVYrAIkIKJWVUinjI"}

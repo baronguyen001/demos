@@ -521,3 +521,112 @@ summary {
     grid-template-columns: 1fr;
   }
 }
+
+.variant-cetin {
+  background: var(--bg);
+}
+
+.variant-cetin .header {
+  border-bottom-color: var(--line);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+}
+
+.variant-cetin .button-primary {
+  background: var(--accent);
+  color: #151311;
+}
+
+.variant-cetin .button-secondary {
+  border-color: color-mix(in srgb, var(--accent) 58%, var(--line));
+  background: transparent;
+  color: var(--text);
+}
+
+.variant-cetin .hero {
+  width: min(1260px, calc(100% - 32px));
+  grid-template-columns: minmax(0, 0.78fr) minmax(420px, 1fr);
+  padding-top: 54px;
+}
+
+.variant-cetin .hero-copy {
+  position: relative;
+  z-index: 2;
+  margin-right: -72px;
+  align-self: center;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  padding: 48px;
+  box-shadow: var(--shadow);
+}
+
+.variant-cetin .hero h1 {
+  font-size: 4.45rem;
+  font-weight: 800;
+}
+
+.variant-cetin .hero-media {
+  min-height: 640px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
+.variant-cetin .trust {
+  border-color: var(--line);
+  background: var(--line);
+}
+
+.variant-cetin .trust-tile,
+.variant-cetin .service-card,
+.variant-cetin .team-card,
+.variant-cetin .quote-card,
+.variant-cetin .faq details,
+.variant-cetin .hours-table,
+.variant-cetin .map-frame {
+  background: var(--surface-strong);
+}
+
+.variant-cetin .service-card {
+  position: relative;
+  padding-left: 30px;
+}
+
+.variant-cetin .service-card::before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  bottom: 22px;
+  left: 14px;
+  width: 3px;
+  background: var(--accent);
+}
+
+.variant-cetin .quote-card:nth-child(2) {
+  transform: translateY(24px);
+}
+
+.variant-cetin .footer {
+  background: #100f0e;
+}
+
+@media (max-width: 719px) {
+  .variant-cetin .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .variant-cetin .hero-copy {
+    margin-right: 0;
+    padding: 28px;
+  }
+
+  .variant-cetin .hero h1 {
+    font-size: 3rem;
+  }
+
+  .variant-cetin .hero-media {
+    min-height: 360px;
+  }
+
+  .variant-cetin .quote-card:nth-child(2) {
+    transform: none;
+  }
+}

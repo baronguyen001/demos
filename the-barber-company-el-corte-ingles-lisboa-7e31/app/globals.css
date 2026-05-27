@@ -521,3 +521,102 @@ summary {
     grid-template-columns: 1fr;
   }
 }
+
+.variant-lisbon .header {
+  background: var(--surface-strong);
+}
+
+.variant-lisbon .hero {
+  width: min(1240px, calc(100% - 32px));
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.9fr);
+  align-items: center;
+}
+
+.variant-lisbon .hero-copy {
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  padding: 42px;
+}
+
+.variant-lisbon .hero h1 {
+  font-size: 4.35rem;
+  line-height: 1;
+}
+
+.variant-lisbon .hero-media {
+  min-height: 590px;
+  border-radius: 0;
+}
+
+.variant-lisbon .button-primary {
+  background: var(--accent);
+  color: var(--surface-strong);
+}
+
+.variant-lisbon .trust {
+  gap: 12px;
+  border: 0;
+  background: transparent;
+}
+
+.variant-lisbon .trust-tile {
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+}
+
+.variant-lisbon .service-card,
+.variant-lisbon .team-card,
+.variant-lisbon .quote-card,
+.variant-lisbon .faq details,
+.variant-lisbon .hours-table,
+.variant-lisbon .map-frame,
+.variant-lisbon .image-panel {
+  border-radius: 0;
+}
+
+.variant-lisbon .service-card {
+  min-height: 170px;
+  background: linear-gradient(180deg, var(--surface-strong), color-mix(in srgb, var(--surface) 58%, var(--surface-strong)));
+}
+
+.variant-lisbon .service-card h3::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 3px;
+  margin-bottom: 14px;
+  background: var(--accent);
+}
+
+.variant-lisbon .hours-map {
+  align-items: start;
+}
+
+@media (min-width: 720px) {
+  .variant-lisbon .header .button-primary {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 60;
+    min-height: 54px;
+    box-shadow: var(--shadow);
+  }
+}
+
+@media (max-width: 719px) {
+  .variant-lisbon .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .variant-lisbon .hero-copy {
+    padding: 26px;
+  }
+
+  .variant-lisbon .hero h1 {
+    font-size: 2.9rem;
+  }
+
+  .variant-lisbon .hero-media {
+    min-height: 360px;
+  }
+}

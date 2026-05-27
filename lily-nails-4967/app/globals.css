@@ -521,3 +521,102 @@ summary {
     grid-template-columns: 1fr;
   }
 }
+
+.variant-lily {
+  background: var(--bg);
+}
+
+.variant-lily .header {
+  border-bottom: 0;
+  box-shadow: 0 1px 0 rgba(42, 26, 34, 0.08);
+}
+
+.variant-lily .brand strong {
+  font-size: 2rem;
+}
+
+.variant-lily .button,
+.variant-lily .service-card,
+.variant-lily .team-card,
+.variant-lily .quote-card,
+.variant-lily .faq details,
+.variant-lily .hours-table,
+.variant-lily .map-frame {
+  border-radius: 10px;
+}
+
+.variant-lily .button-primary {
+  background: var(--accent-strong);
+}
+
+.variant-lily .hero {
+  padding-top: 64px;
+}
+
+.variant-lily .hero h1 {
+  max-width: 760px;
+  color: var(--text);
+  font-size: 4rem;
+  line-height: 0.98;
+}
+
+.variant-lily .hero-media,
+.variant-lily .image-panel {
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.variant-lily .trust {
+  border: 0;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: var(--shadow);
+}
+
+.variant-lily .trust-tile {
+  background: color-mix(in srgb, var(--surface-strong) 86%, var(--accent) 14%);
+}
+
+.variant-lily .service-card {
+  align-content: space-between;
+  min-height: 180px;
+  background: color-mix(in srgb, var(--surface-strong) 92%, var(--accent) 8%);
+}
+
+.variant-lily .gallery-grid {
+  columns: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.variant-lily .gallery-grid img {
+  min-height: 260px;
+  margin: 0;
+  border-radius: 16px;
+}
+
+.variant-lily .gallery-grid img:first-child,
+.variant-lily .gallery-grid img:nth-child(6) {
+  grid-column: span 2;
+  grid-row: span 2;
+  min-height: 536px;
+}
+
+@media (max-width: 719px) {
+  .variant-lily .hero h1 {
+    font-size: 3.05rem;
+  }
+
+  .variant-lily .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .variant-lily .gallery-grid img:first-child,
+  .variant-lily .gallery-grid img:nth-child(6) {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 280px;
+  }
+}

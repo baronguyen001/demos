@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter_Tight, Manrope } from "next/font/google";
 import "./globals.css";
 import { site } from "./site-data";
 
-const body = Inter({
+const body = Manrope({
   variable: "--font-body",
   subsets: ["latin"],
   display: "swap",
 });
 
-const display = Playfair_Display({
+const display = Inter_Tight({
   variable: "--font-display",
   subsets: ["latin"],
   display: "swap",
