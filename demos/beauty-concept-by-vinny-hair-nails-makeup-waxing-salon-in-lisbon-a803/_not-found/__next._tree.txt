@@ -1,0 +1,2 @@
+:HL["/demos/beauty-concept-by-vinny-hair-nails-makeup-waxing-salon-in-lisbon-a803/_next/static/chunks/0qkr7pu7b2mg7.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Y534YObtQtxDujjl75gQk"}
