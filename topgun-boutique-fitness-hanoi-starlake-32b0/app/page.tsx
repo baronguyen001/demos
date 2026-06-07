@@ -214,7 +214,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl">
           <p className="font-[var(--font-display)] text-xl font-bold uppercase text-white">{info.name}</p>
           <p className="mt-2">{info.address} - {info.phone}</p>
-          <p className="mt-4 text-xs leading-6">Đây là bản web demo dựng sẵn làm quà giới thiệu cho {info.name}. Chưa phải trang chính thức. Nếu anh/chị là chủ tiệm và muốn dùng web thật với ảnh + tên miền riêng, liên hệ {info.phone}.</p>
+          <p className="mt-4 text-xs leading-6">Đây là bản web demo dựng sẵn làm quà giới thiệu cho {info.name}. Chưa phải trang chính thức. Nếu anh/chị là chủ tiệm và muốn dùng web thật với ảnh + tên miền riêng, liên hệ 0374 075 969.</p>
         </div>
       </footer>
     </main>

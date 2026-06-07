@@ -203,7 +203,7 @@ export default function Home() {
       </div>
 
       <footer className="border-t border-[var(--line)] px-4 py-10 text-center text-sm leading-7 text-[var(--muted)] md:px-6">
-        <p>Đây là bản web demo dựng sẵn làm quà giới thiệu cho Nha Khoa Phượng. Chưa phải trang chính thức. Nếu anh/chị là chủ và muốn dựng web thật với tên miền riêng, liên hệ {phoneDisplay}.</p>
+        <p>Đây là bản web demo dựng sẵn làm quà giới thiệu cho Nha Khoa Phượng. Chưa phải trang chính thức. Nếu anh/chị là chủ và muốn dựng web thật với tên miền riêng, liên hệ 0374 075 969.</p>
       </footer>
     </main>
   );
