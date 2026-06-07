@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f4f8f8;
+  --paper: #ffffff;
+  --ink: #102936;
+  --muted: #5e7078;
+  --primary: #12818a;
+  --primary-dark: #0d3e59;
+  --accent: #bde3df;
+  --line: #d9e8ea;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), Arial, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+.photo-note {
+  border-left: 3px solid var(--primary);
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  margin-top: 0.8rem;
+  padding-left: 0.85rem;
+}
+
+.clinic-shadow {
+  box-shadow: 0 24px 70px rgba(13, 62, 89, 0.16);
+}
