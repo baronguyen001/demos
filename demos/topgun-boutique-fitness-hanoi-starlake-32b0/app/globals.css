@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --coal: #08090b;
+  --steel: #161a20;
+  --line: #2a3039;
+  --heat: #ff7a1a;
+  --sun: #ffd166;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--coal);
+  color: #f6f2ea;
+  font-family: var(--font-body), Arial, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+.photo-note {
+  color: #ffd7b5;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  margin-top: 0.75rem;
+}
